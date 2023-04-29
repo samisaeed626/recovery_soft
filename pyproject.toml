@@ -1,0 +1,13 @@
+[tool.poetry]
+name = "Calculator"
+version = "0.1.0"
+description = "My awesome FastAPI project"
+authors = ["abdullah zulfiqar <abdullahzulfiqar653@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.11.2"
+fastapi = "^0.95.1"
+sqlalchemy = "^2.0.9"
+python-dotenv = "^1.0.0"
+uvicorn = {extras = ["standard"], version = "^0.21.1"}
+fastapi-sqlalchemy = "^0.2.1"
